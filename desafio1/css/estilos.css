@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'mulish-bold';
+    src: url(../fonts/Mulish-Bold.ttf);
+}
+@font-face {
+    font-family: 'mulish-regular';
+    src: url(../fonts/Mulish-Regular.ttf);
+}
+.container {
+    text-align: center;
+}
+h1{
+    color: #04146c;
+    font-size: 65px;
+}
+h2 {
+    color: #0a2ff1;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 24px;
+}
+h1, h2, h3 {
+    font-family: 'mulish-bold';
+}
+p {
+    font-family: 'mulish-regular';
+    font-size: 24px;
+    color: #04146c;
+}
+.row {
+    text-align: center;
+}
+.img-container1, .img-container2, .img-container3 {
+    width: 200px;
+   height: 200px;
+   background-size: cover;
+   background-position: center;
+}
+img {
+    width: 150px;
+}
+.col-12 {
+    margin-bottom: 20px;
+}
+button {
+    font-size: 24px;
+    color: #04146c;
+    border: 1px solid #0a2ff1;
+}
