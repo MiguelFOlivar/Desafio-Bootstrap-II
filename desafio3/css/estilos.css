@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'mulish-semi-bold';
+    src: url(../fonts/Mulish/static/Mulish-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'mulish-italic';
+    src: url(../fonts/Mulish/static/Mulish-Italic.ttf);
+}
+.btn {
+    width: 150px;
+    height: 50px;
+}
+.form-label, .form-check-label {
+    font-family: 'mulish-semi-bold';
+    font-size: 24px;
+    color: #04146c;
+}
+input {
+   border-color: #8a9af1;
+}
+.ayuda-correo {
+    font-family: 'mulish-italic';
+    font-size: 17px;
+    color: #04146c;
+}
+.btn {
+    font-size: 24px;
+    background: #5974ff;
+}
